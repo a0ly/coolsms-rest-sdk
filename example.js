@@ -6,27 +6,15 @@ var client = new Coolsms({
   secret: 'your API secret key'
 });
 
-coolsms.balance(function (error, result) {
-  console.log(result);
-});
-
-client.sms.balance(function (error, result) {
-  console.log(result);
-});
-
 client.sms.send({
-  to: '00000000000',
-  from: '11111111111',
-  type: 'SMS', // SMS, LMS, MMS
+  to: '00000000000',    // recipient
+  from: '11111111111',  // sender 
+  type: 'SMS',          // SMS, LMS, MMS
   text: 'your message',
 }, function (error, result) {
-  console.log(result);
-});
-
-client.sms.sent(function (error, result) {
-  console.log(result);
-});
-
-client.sms.status(function (error, result) {
-  console.log(result);
+  if(error) {
+    console.log(error);
+  } else {
+    console.log(result);
+  }
 });
