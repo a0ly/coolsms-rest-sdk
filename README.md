@@ -2,7 +2,7 @@ coolsms-rest-sdk
 =====
 
 coolsms rest-sdk for node.js
-- [Documentation](http://www.coolsms.co.kr/REST_API)
+[Documentation](http://www.coolsms.co.kr/REST_API)
 
 ## Installation
 `npm install coolsms-rest-sdk`
