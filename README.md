@@ -7,6 +7,9 @@ coolsms rest-sdk for node.js
 ## Installation
 `npm install coolsms-rest-sdk`
 
+## Test
+`npm test`
+
 ## Usage
 ```javascript
 var Coolsms = require('coolsms-rest-sdk');
