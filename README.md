@@ -1,8 +1,12 @@
 coolsms-rest-sdk
 =====
-
 coolsms rest-sdk for node.js
 [Documentation](http://www.coolsms.co.kr/REST_API)
+
+[![Build Status](https://travis-ci.org/a0ly/coolsms-rest-sdk.svg?branch=master)](https://travis-ci.org/a0ly/coolsms-rest-sdk)
+[![npm version](https://badge.fury.io/js/coolsms-rest-sdk.svg)](https://badge.fury.io/js/coolsms-rest-sdk)
+[![Dependency Status](https://david-dm.org/a0ly/coolsms-rest-sdk.svg)](https://david-dm.org/a0ly/coolsms-rest-sdk)
+
 
 ## Installation
 `npm install coolsms-rest-sdk`
@@ -20,7 +24,7 @@ var client = new Coolsms({
 
 client.sms.send({
   to: '00000000000',    // recipient
-  from: '11111111111',  // sender 
+  from: '11111111111',  // sender
   type: 'SMS',          // SMS, LMS, MMS
   text: 'your message',
 }, function (error, result) {
