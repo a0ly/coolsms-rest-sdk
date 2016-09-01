@@ -1,7 +1,7 @@
 {
   "name": "coolsms-rest-sdk",
   "description": "coolsms rest-sdk for node.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "Seungjae Lee",
     "email": "seungjeal@naver.com",
@@ -36,6 +36,6 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "i": "^0.3.4",
-    "mocha": "^2.5.3"
+    "mocha": "^3.0.2"
   }
 }
