@@ -1,7 +1,7 @@
 {
   "name": "coolsms-rest-sdk",
   "description": "coolsms rest-sdk for node.js",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": {
     "name": "Seungjae Lee",
     "email": "seungjeal@naver.com",
@@ -26,16 +26,16 @@
     "url": "https://github.com/a0ly/coolsms-rest-sdk/issues"
   },
   "dependencies": {
-    "lodash": "~4.17.4",
-    "request": "~2.79.0"
+    "lodash": "4.17.4",
+    "request": "2.80.0"
   },
   "main": "index",
   "engines": {
     "node": ">= 0.12.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "i": "^0.3.4",
-    "mocha": "^3.0.2"
+    "chai": "3.5.0",
+    "i": "0.3.4",
+    "mocha": "3.0.2"
   }
 }
